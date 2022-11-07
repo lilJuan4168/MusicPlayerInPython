@@ -1,4 +1,4 @@
-from pygame import mixer, mixer_music, event
+from pygame import mixer
 from os import system, listdir
 from classes import menu_music
 from time import sleep
