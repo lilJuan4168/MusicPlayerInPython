@@ -2,9 +2,15 @@ from pygame import mixer
 from os import system, listdir
 from classes import menu_music
 from time import sleep
+from pyautogui import prompt
 
 print("\n###---Chester's Music Player---###\n")
-file = input("Pegar Direccion de Directorio:")
+file = prompt("Pegar Direccion de Directorio")
+
+if file == None:
+    print("No se ha seleccionado directorio")
+    exit()
+
 sleep(1)
 system("clear")
 canciones = listdir(file)
