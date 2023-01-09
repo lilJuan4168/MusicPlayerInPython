@@ -1,6 +1,6 @@
 # MusicPlayerInPython
 
-# Dependencies: pip install pygame
+# Dependencies: pip install pygame, pip install pyautogui
 
 # Execute: python3 Player.py
 
