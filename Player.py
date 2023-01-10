@@ -8,7 +8,7 @@ print("\n###---Chester's Music Player---###\n")
 file = prompt("Pegar Direccion de Directorio")
 
 if file == None:
-    print("No se ha seleccionado directorio")
+    print("No se ha seleccionado directorio...")
     exit()
 
 sleep(1)
