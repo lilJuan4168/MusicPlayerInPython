@@ -1,7 +1,9 @@
-# MusicPlayerInPython
+<h1 align='center'> MusicPlayerInPython </h1>
 
-# Dependencies: pip install pygame, pip install pyautogui
+<p>This is my second project created in python, it is a music player which runs only in terminal, it has an interactive menu to choose a song and you can make next, prev, play, stop, and pause using words or a combination of keyboards.</p>
 
-# Execute: python3 Player.py
+<pre>requirements:
+python 3.10 or higher
+pip install pygame </pre>
 
-# Commands: l+ENTER, O+ENTER, play, pause, unpause, stop, exit 
+<p align='center'><img src='img/music_player.png' width=800 heigth=400></p>
